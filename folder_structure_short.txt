@@ -1,0 +1,16 @@
+Project root: .gitignore, README.md, requirements.txt, config.py, run_server.py
+
+Top-level folders (summary):
+- ai/: embedding_engine.py, preprocessing.py, similarity_search.py, vector_store.py
+- api-backend/: run_server.py; api/ (main.py, routes.py, response_builder.py, schemas.py); services/defect_service.py
+- clustering/: cluster_engine.py, cluster_utils.py
+- data/: processed/cleaned_bug_reports.csv; raw/bugzilla_raw.csv
+- enhancer/: report_enhancer.py, missing_fields_detector.py
+- frontend/: index.html, package.json, src/ (components/, pages/, services/)
+- models/: vector_index/
+- scripts/: build_index.py, clean_dataset.py, clean_dataset_hf.py, load_bugzilla.py, run_demo.py
+- services/: decision_engine.py, defect_service.py
+- tests/: unit and integration tests (test_*.py)
+- utils/: constants.py, file_loader.py, logger.py
+
+If you want a different format (Markdown/JSON) or to include/exclude specific folders, tell me and I'll regenerate it.

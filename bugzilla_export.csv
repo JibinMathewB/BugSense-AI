@@ -1,0 +1,4 @@
+bug_id,summary,description,product,component
+1,Login fails on submit,When clicking submit login page crashes,WebApp,Login
+2,Payment timeout,Payment gateway times out sometimes,WebApp,Payment
+3,Signup error,Signup page does not respond when clicking register,WebApp,Signup
