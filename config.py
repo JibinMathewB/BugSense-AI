@@ -61,8 +61,10 @@ POSSIBLE_DUPLICATE_THRESHOLD = 0.75
 # =========================
 # FastAPI server configuration
 
-API_HOST = "localhost"
-API_PORT = 8000
+import os
+
+API_HOST = "0.0.0.0"
+API_PORT = int(os.getenv("PORT", "8000"))
 
 
 # =========================
